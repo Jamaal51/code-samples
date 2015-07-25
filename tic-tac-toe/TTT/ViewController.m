@@ -86,8 +86,8 @@
         NSLog(@"winner");
     } else if (draw) {
         [self newGame];
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"TIE!" message:@"this game has no winner" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"again", nil];
-        [alert show];
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"TIE!" message:@"this game has no winner" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"again", nil];
+//        [alert show];
         NSLog(@"full");
     }
     

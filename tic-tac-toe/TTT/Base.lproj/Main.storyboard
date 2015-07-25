@@ -201,6 +201,9 @@
                                             <action selector="buttonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="20s-Fs-b0u"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="PFk-ft-qyC">
+                                        <rect key="frame" x="-2" y="-14" width="82" height="107"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -302,4 +305,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="cat" width="236" height="347"/>
+    </resources>
 </document>
